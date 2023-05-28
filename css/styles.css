@@ -221,12 +221,20 @@ body {
   letter-spacing: 0.04em;
 }
 
-.main-button {
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: #404bbf;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
   color: #ffffff;
 }
 
 .portfolio-title {
   font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -235,6 +243,8 @@ body {
 
 .portfolio-text {
   font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
