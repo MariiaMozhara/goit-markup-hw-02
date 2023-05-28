@@ -1,5 +1,7 @@
 :root {
-background-color: #ffffff;
+  --title-color: ;
+  --accent-color: ;
+  --main-text-color: ;
 }
 
 body {
@@ -13,7 +15,7 @@ body {
   text-decoration: none;
 }
 
-ul {
+.list {
   list-style-type: none;
 }
 
@@ -25,139 +27,144 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  
 }
 
-.header-logo span {
-color: #2e2f42;
+.logo-part {
+  color: #2e2f42;
 }
 
 .header-menu-link {
-font-weight: 500;
-line-height: 1.5'
-letter-spacing: 0.02em;
-color: #2E2F42;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.address {
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
+.header-contacts-link {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  color: #434455;
+  font-style: normal;
 }
 
 .hero-title {
-font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-letter-spacing: 0.02em;
-color: #FFFFFF;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.hero {
+  background-color: #2e2f42;
 }
 
 .hero-button {
-  font-family: 'Roboto';
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #FFFFFF;
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
 }
 
 .page-principles-title {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2E2F42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .page-principles-text {
   font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .page-products-title {
   font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2E2F42;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
-.page-team-title
-{
+.page-team-title {
   font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2E2F42;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .page-team-name {
   font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2E2F42;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.page-team-position
-{
+.page-team-position {
   font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .footer-logo {
-  font-family: 'Raleway';
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-display: flex;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #F4F4FD;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
 
 .footer-logo span {
-  color: #4D5AE5;
+  color: #4d5ae5;
 }
 
 .footer-text {
   font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #F4F4FD;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 
 /* end of index html page */
 
-
-.portfolio-button
-{
-font-family: 'Roboto';
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-color: #4D5AE5;
+.portfolio-button {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #4d5ae5;
 }
 
 .main-button {
-color: #FFFFFF;}
+  color: #ffffff;
+}
 
 .portfolio-title {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2E2F42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .portfolio-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
