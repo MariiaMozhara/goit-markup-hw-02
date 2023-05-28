@@ -7,7 +7,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(contacts-link-color);
-  background-color: hsl(0, 0%, 100%);
+  background-color: var(contacts-link-color);
   font-size: 16px;
 }
 
