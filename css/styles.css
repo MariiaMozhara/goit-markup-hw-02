@@ -1,12 +1,12 @@
 :root {
   --main-text-color: #2e2f42;
   --second-text-color: #f4f4fd;
-  --contacts-link-color: #434455;
+  --contacts-link-color: #ffffff;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(contacts-link-color);
+  color: #434455;
   background-color: var(contacts-link-color);
   font-size: 16px;
 }
