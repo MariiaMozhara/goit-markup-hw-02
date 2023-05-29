@@ -2,6 +2,7 @@
   --main-text-color: #2e2f42;
   --second-text-color: #f4f4fd;
   --contacts-link-color: #ffffff;
+  --header-link-color: #434455;
 }
 
 body {
@@ -39,7 +40,7 @@ body {
   line-height: 1.5;
   font-size: 16px;
   letter-spacing: 0.02em;
-  color: var(--main-text-color);
+  color: var(--header-link-color);
   text-decoration: none;
 }
 
